@@ -1,32 +1,15 @@
-<!--
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Postit</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
-    <%= yield %>
-  </body>
-</html>
--->
-
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tealeaf Academy - Postit</title>
+    <title>Postit</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
     <%= yield(:head) %>
   </head>
   <body>
