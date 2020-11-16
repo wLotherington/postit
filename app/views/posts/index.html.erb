@@ -15,6 +15,7 @@
           <%= link_to("#{post.comments.size} comments", post_path(post)) %>
         </span>
       </small>
+      (<%= link_to 'edit', edit_post_path(post) %>)
     </div>
   </div>
 <% end %>
