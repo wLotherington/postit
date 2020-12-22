@@ -3,3 +3,13 @@
 <% @posts.each do |post| %>
   <%= render 'post', post: post %>
 <% end %>
+
+<div class="text-center">
+  <% @pages.times do |n| %>
+    <% if params[:offset].to_s == (n * Post::PER_PAGE).to_s || n == 0 && params[:offset].nil? %>
+      <span class="label"><%= n + 1 %></span>
+    <% else %>
+      <span class="label label-success" style="background-color:#0088cc"><%= link_to "#{n + 1}", posts_path(offset: n * Post::PER_PAGE) %></span>
+    <% end %>
+  <% end %>
+</div>
