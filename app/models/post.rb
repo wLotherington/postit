@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-  PER_PAGE = 3
+  PER_PAGE = 5
 
   include Voteable
   include Sluggable
