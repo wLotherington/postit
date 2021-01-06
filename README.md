@@ -1,24 +1,10 @@
-# README
+# Postit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* **Try it out:** [Postit](https://ls-postit-will.herokuapp.com/)
+* **Stack:** `Ruby`, `Rails`, `JavaScript`, `jQuery`
+* **Feedback:** [Will.Lotherington@hey.com](mailto:Will.Lotherington@hey.com)
 
-Things you may want to cover:
+### What is it?
+Reddit clone built using Ruby on Rails
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](app/assets/images/01.png)
