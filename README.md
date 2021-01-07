@@ -1,6 +1,6 @@
 # Postit
 
-* **Try it out:** [https://ls-postit-will.herokuapp.com/](https://ls-postit-will.herokuapp.com/)
+* **Try it out:** [https://postit-wlotherington.herokuapp.com/](https://postit-wlotherington.herokuapp.com/)
 * **Stack:** `Ruby`, `Rails`, `JavaScript`, `jQuery`
 * **Feedback:** [Will.Lotherington@hey.com](mailto:Will.Lotherington@hey.com)
 
